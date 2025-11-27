@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Source Compile Uninstaller
+Comment=Uninstall applications compiled from source
+Icon=edit-delete
+Exec=python3 ~/.local/bin/source-compile-uninstaller.py
+Categories=System;Utility;
+Terminal=false
+Keywords=uninstall;remove;compile;source;

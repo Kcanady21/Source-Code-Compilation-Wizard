@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-compressed-tar;application/x-xz-compressed-tar;application/gzip;application/x-bzip-compressed-tar;
+Actions=CompileSource;
+
+[Desktop Action CompileSource]
+Name=Compile and Install (Wizard)
+Icon=applications-development
+Exec=bash -c 'python3 "$HOME/.local/bin/source-compile-wizard.py" "%f"'
